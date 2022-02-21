@@ -1,3 +1,4 @@
+<div class="wrap">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,39 +10,107 @@
     <title>Mega Guia</title>
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="ImagemMenu"></div>
-        <div class="Menu">
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="#home">Inicial</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#tutoriais">Tutorial</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#cursos">Cursos </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="#documentacoes">Documentações</a>
-                </li>
-              </ul>
+ 
+   <header id="voltar">
+
+   
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bem vindo!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Programação
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#guia">Action</a></li>
+                  <li><a class="dropdown-item" href="#cursos">Another action</a></li>
+                  <li><a class="dropdown-item" href="#tutoriais">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Versionamento
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Banco de Dados
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-        
       </nav>
-</header>
-    <main>
         
-                <img src="https://shortest.link/32Xj" class="d-block w-100" alt="...">
-                
-        <div id="tutoriais">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                ...
-              </div>        
+                <img src="img/img1_header.png" class="d-block w-100" alt="..."
+
+              </header>
+        <main>       
+        <div id="guia">
+          <div class =Cabecalho>
+            <div class="card text-center">
+              <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#guia">Guia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#cursos">Cursos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#tutoriais">Tutoriais</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#voltar">Voltar</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Guia de estudos em C#</h5>
+                <p class="card-text">Tudo que você vai ver nesse mega guia, faz parte do detalhamento e grande seleção de conteudos, que tem como objetivo acelerar o seu aprendizado.</p>
+              </div>
+            </div>
+            </div>       
         </div>
+        
         <!--Cursos mega guia-->
         <div id="cursos">
+          <div class =Cabecalho>
+            <div class="card text-center">
+              <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#guia">Guia</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link active" href="#cursos">Cursos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#tutoriais">Tutoriais</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Cursos</h5>
+                <p class="card-text">Melhores indicações de cursos gratuitos e pagos sobre a linguagem C#</p>
+              </div>
+            </div>
+            </div>
           
           <div class="cardCursos">
             <div class="card" style="width: 25rem;">
@@ -112,15 +181,94 @@
           
           
         <!--Documentações mega guia-->
-        <div id="documentacoes">
-          <h5>
-            A microsoft possui a maior e com a melhor documentação existente da atualidade
-          </h5>
-          <h4>
-            Leia e aprenda por conta!
-          </h4>
-          
-    
+        <div id="tutoriais">
+          <div class =Cabecalho>
+            <div class="card text-center">
+              <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#guia">Guia</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link " href="#cursos">Cursos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#tutoriais">Tutoriais</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Guia de estudos em C#</h5>
+                <p class="card-text">Tudo que você vai ver nesse mega guia, faz parte do detalhamento e grande seleção de conteudos, que tem como objetivo acelerar o seu aprendizado.</p>
+              </div>
+            </div>
+            </div>
+        
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Microsoft
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <BR>
+              <BR>
+                <BR>
+                  <BR>
+                    <BR>
+                      <BR>
+                        <BR>
+                          <BR>
+                            <BR>
+                              <BR>
+                                <BR>
+                                  <BR>
+                                    <BR>
+                                      <BR>
+                                        <BR>
+                                          <BR>
+                                            <BR>
+                                              <BR>
+                                                <BR>
+                                                  <BR>
+                                                    <BR>
+                                                      <BR>
+                                                        <BR>
+                                                          <BR>
+            
+
             
         </div>
     </main>
@@ -129,3 +277,4 @@
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>
+</div>
